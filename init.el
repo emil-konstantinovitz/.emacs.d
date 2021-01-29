@@ -22,8 +22,7 @@
 (setq straight-use-package-by-default t)
 
 (use-package nvz-core
-  :straight nil
-  :load-path "~/.emacs.d/nvz-core/")
+  :straight (nvz-core :local-repo "nvz-core"))
 
 ;;; --- Prog mode ---
 (use-package which-key
